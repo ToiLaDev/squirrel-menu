@@ -1,0 +1,28 @@
+{
+    "name": "toiladev/squirrel-menu",
+    "description": "Moduler Menu for Squirrel",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Mr. VnS",
+            "email": "mrvns@live.com"
+        }
+    ],
+    "require": {
+        "toiladev/squirrel": "^1.0",
+        "kalnoy/nestedset": "^6.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Squirrel\\Menu\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Squirrel\\Menu\\ServiceProvider"
+            ]
+        }
+    }
+}
